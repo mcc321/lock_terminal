@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^$', views.index, name='index'),
     url(r'^condition$', views.condition, name='condition'),
+    url(r'^get_image$', views.get_image, name='get_image'),
 ]
