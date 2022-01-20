@@ -122,4 +122,4 @@ STATIC_URL = '/templates/'
 STATIC_ROOT = os.path.join(BASE_DIR, "collect_static")
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "templates"),]
 
-API_URL="https://www.wyt.cloud/wx_auth/get_pass"
+API_URL="https://www./wx_auth/get_pass"
